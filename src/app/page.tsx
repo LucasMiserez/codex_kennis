@@ -4,6 +4,8 @@ import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { useState, useEffect, useCallback } from "react";
 import { FaRandom } from "react-icons/fa";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { AlertCircle } from "lucide-react";
 
 type Song = {
   titel: string;
@@ -39,6 +41,13 @@ export default function Home() {
 
   return (
     <div className="space-y-3">
+      <Alert variant="default">
+        <AlertCircle className="h-4 w-4" />
+        <AlertTitle>In Ontwikkeling</AlertTitle>
+        <AlertDescription>
+          Deze website is een work-in-progress.
+        </AlertDescription>
+      </Alert>
       {loading && <div>Loading...</div>}
       {!loading && nummer && (
         <>
