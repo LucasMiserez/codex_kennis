@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <div className={"flex flex-col items-center h-screen justify-between"}>
           <div></div>
-          <div>
+          <div className={"w-full flex justify-center"}>
           {children}
           </div>
           <div className={"w-full"}>

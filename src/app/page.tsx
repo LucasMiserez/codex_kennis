@@ -40,7 +40,7 @@ export default function Home() {
   }, [fetchSong]);
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 flex flex-col justify-center items-center mx-5 w-10/12 xl:w-1/2">
       <Alert variant="default">
         <AlertCircle className="h-4 w-4" />
         <AlertTitle>In Ontwikkeling</AlertTitle>
@@ -51,7 +51,7 @@ export default function Home() {
       {loading && <div>Loading...</div>}
       {!loading && nummer && (
         <>
-          <div>
+          <div className={"w-full"}>
             <h2 className="text-4xl font-bold flex w-full justify-center">
               {nummer.titel}
             </h2>
@@ -60,7 +60,7 @@ export default function Home() {
               Pagina: {nummer.pagina}
             </p>
           </div>
-          <iframe
+          <iframe className="w-full aspect-video"
             width="560"
             height="315"
             src={nummer.src}
