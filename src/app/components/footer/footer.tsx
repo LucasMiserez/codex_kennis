@@ -7,7 +7,7 @@ export default function Footer() {
           <a href="https://github.com/LucasMiserez" className="hover:underline">
             Lucas Miserez
           </a>
-          . Alle rechten voorbehouden .
+          . Alle rechten voorbehouden.
         </span>
       </div>
     </footer>
