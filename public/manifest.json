@@ -19,8 +19,8 @@
   "display": "standalone",
   "dir": "auto",
   "lang": "nl-BE",
-  "name": "Codex Kennis",
-  "short_name": "CK",
+  "name": "Codex Bruxellensis Kennis",
+  "short_name": "Codex Kennis",
   "start_url": "/",
   "scope": "/",
   "description": "App voor het testen van Codex Bruxellensis kennis"
