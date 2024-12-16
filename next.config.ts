@@ -1,6 +1,7 @@
 import { NextConfig } from "next";
 
 // @ts-check
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const withPWA = require("@ducanh2912/next-pwa").default({
   // You will get hints as you type here. You can also hover over these options
   // to get a detailed description about them!
